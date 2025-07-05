@@ -89,7 +89,11 @@ const Navigation = () => {
         <div className="hidden md:flex items-center space-x-4">
           {user ? (
             <>
-              <span className="text-purple-400 font-semibold">Hi, {user.name}</span>
+              <Link href="/profile">
+                <span className="text-purple-400 font-semibold hover:text-purple-300 cursor-pointer transition-colors">
+                  Hi, {user.name}
+                </span>
+              </Link>
               <Button
                 variant="outline"
                 onClick={handleLogout}
@@ -146,7 +150,11 @@ const Navigation = () => {
             <div className="flex flex-col space-y-3 pt-4">
               {user ? (
                 <>
-                  <span className="text-purple-400 px-4 text-lg">Hi, {user.name}</span>
+                  <Link href="/profile">
+                    <span className="text-purple-400 px-4 text-lg hover:text-purple-300 cursor-pointer transition-colors">
+                      Hi, {user.name}
+                    </span>
+                  </Link>
                   <Button
                     onClick={handleLogout}
                     className="text-red-400 border-red-400 hover:bg-red-500/10"

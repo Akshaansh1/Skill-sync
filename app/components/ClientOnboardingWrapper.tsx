@@ -32,8 +32,8 @@ export default function ClientOnboardingWrapper() {
             setShowOnboarding(false);
           }
         } else {
-          // Token is expired or invalid, remove it and don't show onboarding
-          localStorage.removeItem('token');
+          // Token is expired, but don't remove it automatically on startup
+          // Only remove if it's clearly invalid
           setShowOnboarding(false);
         }
       } else {
@@ -42,8 +42,7 @@ export default function ClientOnboardingWrapper() {
       }
     } catch (err) {
       console.error('Token decode error:', err);
-      // If token is invalid, remove it and don't show onboarding
-      localStorage.removeItem('token');
+      // Only remove token if it's clearly invalid, not on startup
       setShowOnboarding(false);
     }
   };
