@@ -14,11 +14,43 @@ const Navigation = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  useEffect(() => {
-    const userInfo = getUserFromToken();
-    if (userInfo) {
-      setUser({ name: userInfo.name });
+  const updateUserState = () => {
+    try {
+      const userInfo = getUserFromToken();
+      if (userInfo) {
+        setUser({ name: userInfo.name || 'User' });
+      } else {
+        setUser(null);
+      }
+    } catch (err) {
+      // If token is invalid, clear it and set user to null
+      localStorage.removeItem('token');
+      setUser(null);
     }
+  };
+
+  useEffect(() => {
+    updateUserState();
+
+    // Listen for changes in localStorage (when token is updated)
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'token') {
+        updateUserState();
+      }
+    };
+
+    // Listen for custom events (for same-tab updates)
+    const handleTokenUpdate = () => {
+      updateUserState();
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('tokenUpdated', handleTokenUpdate);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('tokenUpdated', handleTokenUpdate);
+    };
   }, []);
 
   const handleLogout = () => {
@@ -69,8 +101,8 @@ const Navigation = () => {
           ) : (
             <>
               <Link href="/signin">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:border-purple-400 transition-all duration-200"
                 >
                   Sign In
@@ -126,8 +158,8 @@ const Navigation = () => {
               ) : (
                 <>
                   <Link href="/signin">
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:border-purple-400 transition-all duration-200 w-full"
                     >
                       Sign In

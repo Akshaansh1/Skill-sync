@@ -18,7 +18,7 @@ export async function POST(request: Request) {
         return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
     }
 
-    const token = generateToken({ id: user.id, email: user.email, name: user.name });
+    const token = generateToken({ id: user.id, email: user.email, name: user.name , isProfileCompleted: user.isProfileCompleted});
 
     return NextResponse.json({ token, user: { id: user.id, email: user.email, name: user.name } });
     } 
