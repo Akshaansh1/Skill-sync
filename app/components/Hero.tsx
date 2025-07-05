@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -17,12 +18,14 @@ const Hero = () => {
           Connect with top developers, showcase your expertise, and join innovative projects that shape the future of technology.
         </p>
         
+        <Link href="/signup">
         <Button 
           size="lg"
           className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 text-lg shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 transform hover:scale-105"
         >
           Get Started Today
         </Button>
+        </Link>
       </div>
     </section>
   );

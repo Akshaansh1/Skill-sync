@@ -1,20 +1,11 @@
-"use Client";
-
+// app/page.tsx
 import React from 'react';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Footer from './components/Footer';
+import Index from './components/Index';
 
-const Index = () => {
+export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-purple-900">
-      <Navigation />
-      <Hero />
-      <Features />
-      <Footer />
-    </div>
+    <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-purple-900">
+      <Index />
+    </main>
   );
-};
-
-export default Index;
+}
