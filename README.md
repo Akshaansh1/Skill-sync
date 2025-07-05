@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🧠 SkillSync – Empowering Developers to Connect, Grow, and Build
+SkillSync is an AI-powered platform designed to streamline collaboration, career growth, and learning for developers. Whether you're leveling up your skill set, exploring exciting job opportunities, joining hackathon teams, or contributing to innovative projects — SkillSync connects you with the right people and opportunities, all in one place.
 
-## Getting Started
+## 🚀 Key Use Cases
+**Upgrade Your Skill Set**: Track and showcase your evolving technical skills, get personalized project suggestions, and grow faster with community-driven learning.
 
-First, run the development server:
+**Look for Jobs**: Apply to curated job opportunities aligned with your interests and expertise. Build a standout profile and get noticed by top recruiters.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Find Teams for Hackathons**: Join or form dynamic hackathon teams based on shared goals and complementary skill sets. Never build alone again.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Explore Projects to Join**: Discover open-source or startup projects looking for collaborators. Contribute to real-world work and build your portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**SkillSync helps you go beyond resumes — it builds your developer identity.**
