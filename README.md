@@ -92,8 +92,8 @@ Custom recommendation algorithms
 
 ## 🔮 Changes for The Future
 
-**Team Builder**: Find collaborators with complementary skills
-**Job Matcher**: Curated opportunities from partner companies
-**Skill Badges**: Verifiable credentials for proven skills
-**Community Hub**: Developer forums and knowledge sharing
-**Analytics Dashboard**: Contribution metrics and skill growth tracking
+- **Team Builder**: Find collaborators with complementary skills
+- **Job Matcher**: Curated opportunities from partner companies
+- **Skill Badges**: Verifiable credentials for proven skills
+- **Community Hub**: Developer forums and knowledge sharing
+- **Analytics Dashboard**: Contribution metrics and skill growth tracking
