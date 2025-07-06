@@ -10,7 +10,7 @@
 
 ---
 
-## 🚀 Key Use Cases
+## Key Use Cases
 
 - **Upgrade Your Skill Set**: Track and showcase evolving skills with personalized project suggestions
 - **Explore Projects**: Discover open-source/startup projects seeking collaborators
@@ -18,7 +18,7 @@
 - **Build Portfolio**: Contribute to real-world work and showcase contributions
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature                 | Description                                       |
 |-------------------------|---------------------------------------------------|
@@ -30,7 +30,7 @@
 | **Authentication**      | Secure JWT-based sessions                         |
 
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Node.js v18+
@@ -66,7 +66,7 @@ Visit http://localhost:3000
 <img width="297" alt="image" src="https://github.com/user-attachments/assets/ae99c679-bda2-48b7-9d54-e8de26932934" />
 
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - Next.js 14 (App Router)
@@ -84,13 +84,13 @@ Visit http://localhost:3000
 - HuggingFace Transformers
 - Custom recommendation algorithms
 
-## 💡 Why This Works
+## Why This Works
 - In the scattered tech landscape of 2025, SkillSync acts as a personalized growth hub for developers:
 - Consolidates your growth journey across learning, project building, and skill validation.
 - Makes skill-building tangible through real-world projects and AI feedback.
 - Proves your credibility by tracking and showcasing active contributions and verified skills.
 
-## 🔮 Changes for The Future
+## Changes for The Future
 
 - **Team Builder**: Find collaborators with complementary skills
 - **Job Matcher**: Curated opportunities from partner companies
