@@ -63,7 +63,8 @@
 Visit http://localhost:3000
 
 ## 🔄 User Workflow
-<img width="404" alt="image" src="https://github.com/user-attachments/assets/9efb91fd-7e36-4181-9f00-f0e1f922caff" />
+<img width="297" alt="image" src="https://github.com/user-attachments/assets/ae99c679-bda2-48b7-9d54-e8de26932934" />
+
 
 ## 🧱 Tech Stack
 
