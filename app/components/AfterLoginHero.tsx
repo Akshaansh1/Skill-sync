@@ -21,9 +21,11 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-gradient-to-r from-[#7C3AED] to-[#3B82F6] hover:from-[#6D28D9] hover:to-[#2563EB] text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-lg min-w-[200px]">
-            Look for Projects
-          </button>
+          <Link href="/project">
+            <button className="bg-gradient-to-r from-[#7C3AED] to-[#3B82F6] hover:from-[#6D28D9] hover:to-[#2563EB] text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-lg min-w-[200px]">
+              Look for Projects
+            </button>
+          </Link>
 
           <Link href="/skills">
             <button className="bg-gradient-to-r from-[#059669] to-[#0891B2] hover:from-[#047857] hover:to-[#0E7490] text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-lg min-w-[200px]">

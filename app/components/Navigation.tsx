@@ -71,7 +71,7 @@ const Navigation = () => {
 
 
 
-        {/* Desktop Auth Section */}
+        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-4">
           {user ? (
             <>
