@@ -69,20 +69,20 @@ Visit http://localhost:3000
 ## 🧱 Tech Stack
 
 ### Frontend
-Next.js 14 (App Router)
-React 18
-Tailwind CSS
-Lucide React Icons
-Shadcn UI Components
+- Next.js 14 (App Router)
+- React 18
+- Tailwind CSS
+- Lucide React Icons
+- Shadcn UI Components
 
 ### Backend
-Next.js API Routes
-Prisma ORM
-PostgreSQL
+- Next.js API Routes
+- Prisma ORM
+- PostgreSQL
 
 ### AI Services
-HuggingFace Transformers
-Custom recommendation algorithms
+- HuggingFace Transformers
+- Custom recommendation algorithms
 
 ## 💡 Why This Works
 - In the scattered tech landscape of 2025, SkillSync acts as a personalized growth hub for developers:
